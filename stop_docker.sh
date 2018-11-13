@@ -1,0 +1,2 @@
+docker stop keycloak_tunnistamo
+docker rm keycloak_tunnistamo

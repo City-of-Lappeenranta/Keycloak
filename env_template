@@ -1,0 +1,6 @@
+# Set real username and password for the Keycloak administration account, then save this file as .env
+KEYCLOAK_USER=username
+KEYCLOAK_PASSWORD=password
+
+# Set this to true if using a proxy like nginx with Keycloak, otherwise redirects wont work properly
+PROXY_ADDRESS_FORWARDING=true
